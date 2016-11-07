@@ -30,5 +30,5 @@ func main() {
     jpeg.Encode(imgw, m, &jpeg.Options{jpeg.DefaultQuality})
     defer imgw.Close()
 
-    fmt.Println("DONE !!")
+   // fmt.Println("DONE !!")
 }
