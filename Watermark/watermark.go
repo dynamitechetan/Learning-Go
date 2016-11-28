@@ -12,7 +12,7 @@ import (
 
 func main() {
 
-    imgb, _ := os.Open("image.jpg")
+    imgb, _ := os.Open("img.jpg")
     img, _ := jpeg.Decode(imgb)
     defer imgb.Close()
 
