@@ -17,7 +17,7 @@ func pipe_cmd(cmds ...*exec.Cmd) ([]byte, error) {
 	}
 
 	ret, err := cmds[len(cmds)-1].Output()
-	if err != nil {
+	if err != nil {02
 		return nil, err
 	}
 
